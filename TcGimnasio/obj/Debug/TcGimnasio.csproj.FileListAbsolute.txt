@@ -1,0 +1,17 @@
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\bin\Debug\Att2003.mdb
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\bin\Debug\TcGimnasio.exe.config
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\bin\Debug\TcGimnasio.exe.manifest
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\bin\Debug\TcGimnasio.application
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\bin\Debug\TcGimnasio.exe
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\bin\Debug\TcGimnasio.pdb
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.FrmPagos.resources
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.FrmClientes.resources
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.FrmMain.resources
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.Properties.Resources.resources
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.csproj.GenerateResource.Cache
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.exe.licenses
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.exe.manifest
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.application
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.exe
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.pdb
+C:\Users\Franklin\Desktop\Programacion Ejemplos\TcGimnasio\TcGimnasio\obj\Debug\TcGimnasio.csprojResolveAssemblyReference.cache
