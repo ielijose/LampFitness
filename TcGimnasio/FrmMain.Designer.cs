@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition1 = new DevExpress.XtraGrid.StyleFormatCondition();
             this.colUserFlag = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -41,25 +42,25 @@
             this.organizerGroup = new DevExpress.XtraNavBar.NavBarGroup();
             this.tasksItem = new DevExpress.XtraNavBar.NavBarItem();
             this.calendarItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.navbarImageCollectionLarge = new DevExpress.Utils.ImageCollection();
-            this.navbarImageCollection = new DevExpress.Utils.ImageCollection();
+            this.navbarImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
+            this.navbarImageCollection = new DevExpress.Utils.ImageCollection(this.components);
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.ribbonControl = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.appMenu = new DevExpress.XtraBars.Ribbon.ApplicationMenu();
-            this.popupControlContainer2 = new DevExpress.XtraBars.PopupControlContainer();
+            this.appMenu = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
+            this.popupControlContainer2 = new DevExpress.XtraBars.PopupControlContainer(this.components);
             this.buttonEdit = new DevExpress.XtraEditors.ButtonEdit();
             this.iNew = new DevExpress.XtraBars.BarButtonItem();
             this.iOpen = new DevExpress.XtraBars.BarButtonItem();
             this.iSave = new DevExpress.XtraBars.BarButtonItem();
             this.iSaveAs = new DevExpress.XtraBars.BarButtonItem();
             this.iExit = new DevExpress.XtraBars.BarButtonItem();
-            this.popupControlContainer1 = new DevExpress.XtraBars.PopupControlContainer();
+            this.popupControlContainer1 = new DevExpress.XtraBars.PopupControlContainer(this.components);
             this.someLabelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.someLabelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.ribbonImageCollection = new DevExpress.Utils.ImageCollection();
+            this.ribbonImageCollection = new DevExpress.Utils.ImageCollection(this.components);
             this.iClose = new DevExpress.XtraBars.BarButtonItem();
             this.iFind = new DevExpress.XtraBars.BarButtonItem();
             this.iHelp = new DevExpress.XtraBars.BarButtonItem();
@@ -75,7 +76,8 @@
             this.iCenterTextAlign = new DevExpress.XtraBars.BarButtonItem();
             this.iRightTextAlign = new DevExpress.XtraBars.BarButtonItem();
             this.rgbiSkins = new DevExpress.XtraBars.RibbonGalleryBarItem();
-            this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.homeRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.fileRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.formatRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -93,7 +95,7 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.userinfoBindingSource = new System.Windows.Forms.BindingSource();
+            this.userinfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dSDatos = new TcGimnasio.Datos.DSDatos();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colUserid = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -110,10 +112,10 @@
             this.colFecCorte = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPlanes = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
-            this.planesBindingSource = new System.Windows.Forms.BindingSource();
+            this.planesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.mDPagoBindingSource = new System.Windows.Forms.BindingSource();
+            this.mDPagoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colIdMDPago = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDescripcion = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -126,7 +128,7 @@
             this.colPrecioMens = new DevExpress.XtraGrid.Columns.GridColumn();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl4 = new DevExpress.XtraGrid.GridControl();
-            this.pagosBindingSource = new System.Windows.Forms.BindingSource();
+            this.pagosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colId1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDescripcion1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -135,6 +137,8 @@
             this.colModo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colNDocumento = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPlan = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCliente = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemLookUpEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
             this.userinfoTableAdapter = new TcGimnasio.Datos.DSDatosTableAdapters.UserinfoTableAdapter();
             this.mDPagoTableAdapter = new TcGimnasio.Datos.DSDatosTableAdapters.MDPagoTableAdapter();
             this.planesTableAdapter = new TcGimnasio.Datos.DSDatosTableAdapters.PlanesTableAdapter();
@@ -184,6 +188,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pagosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             this.SuspendLayout();
@@ -396,10 +401,11 @@
             this.iLeftTextAlign,
             this.iCenterTextAlign,
             this.iRightTextAlign,
-            this.rgbiSkins});
+            this.rgbiSkins,
+            this.barButtonItem1});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 62;
+            this.ribbonControl.MaxItemId = 63;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -692,6 +698,14 @@
             this.rgbiSkins.Id = 60;
             this.rgbiSkins.Name = "rgbiSkins";
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Eliminar Regsitro";
+            this.barButtonItem1.Id = 62;
+            this.barButtonItem1.LargeImageIndex = 6;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
+            // 
             // ribbonImageCollectionLarge
             // 
             this.ribbonImageCollectionLarge.ImageSize = new System.Drawing.Size(32, 32);
@@ -719,6 +733,7 @@
             // fileRibbonPageGroup
             // 
             this.fileRibbonPageGroup.ItemLinks.Add(this.iNew);
+            this.fileRibbonPageGroup.ItemLinks.Add(this.barButtonItem1);
             this.fileRibbonPageGroup.ItemLinks.Add(this.iOpen);
             this.fileRibbonPageGroup.ItemLinks.Add(this.iClose);
             this.fileRibbonPageGroup.ItemLinks.Add(this.iFind);
@@ -1153,6 +1168,8 @@
             this.gridControl4.MainView = this.gridView4;
             this.gridControl4.MenuManager = this.ribbonControl;
             this.gridControl4.Name = "gridControl4";
+            this.gridControl4.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemLookUpEdit2});
             this.gridControl4.Size = new System.Drawing.Size(912, 485);
             this.gridControl4.TabIndex = 0;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -1172,7 +1189,8 @@
             this.colMonto,
             this.colModo,
             this.colNDocumento,
-            this.colPlan});
+            this.colPlan,
+            this.colCliente});
             this.gridView4.GridControl = this.gridControl4;
             this.gridView4.Name = "gridView4";
             this.gridView4.OptionsView.ShowFooter = true;
@@ -1184,7 +1202,7 @@
             this.colId1.FieldName = "Id";
             this.colId1.Name = "colId1";
             this.colId1.Visible = true;
-            this.colId1.VisibleIndex = 0;
+            this.colId1.VisibleIndex = 1;
             // 
             // colDescripcion1
             // 
@@ -1192,14 +1210,14 @@
             this.colDescripcion1.FieldName = "Descripcion";
             this.colDescripcion1.Name = "colDescripcion1";
             this.colDescripcion1.Visible = true;
-            this.colDescripcion1.VisibleIndex = 4;
+            this.colDescripcion1.VisibleIndex = 5;
             // 
             // colFecha
             // 
             this.colFecha.FieldName = "Fecha";
             this.colFecha.Name = "colFecha";
             this.colFecha.Visible = true;
-            this.colFecha.VisibleIndex = 5;
+            this.colFecha.VisibleIndex = 6;
             // 
             // colMonto
             // 
@@ -1208,7 +1226,7 @@
             this.colMonto.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)});
             this.colMonto.Visible = true;
-            this.colMonto.VisibleIndex = 6;
+            this.colMonto.VisibleIndex = 7;
             // 
             // colModo
             // 
@@ -1216,7 +1234,7 @@
             this.colModo.FieldName = "Modo";
             this.colModo.Name = "colModo";
             this.colModo.Visible = true;
-            this.colModo.VisibleIndex = 3;
+            this.colModo.VisibleIndex = 4;
             // 
             // colNDocumento
             // 
@@ -1224,7 +1242,7 @@
             this.colNDocumento.FieldName = "NDocumento";
             this.colNDocumento.Name = "colNDocumento";
             this.colNDocumento.Visible = true;
-            this.colNDocumento.VisibleIndex = 1;
+            this.colNDocumento.VisibleIndex = 2;
             // 
             // colPlan
             // 
@@ -1232,7 +1250,26 @@
             this.colPlan.FieldName = "Plan";
             this.colPlan.Name = "colPlan";
             this.colPlan.Visible = true;
-            this.colPlan.VisibleIndex = 2;
+            this.colPlan.VisibleIndex = 3;
+            // 
+            // colCliente
+            // 
+            this.colCliente.Caption = "Cliente";
+            this.colCliente.ColumnEdit = this.repositoryItemLookUpEdit2;
+            this.colCliente.FieldName = "Codigo";
+            this.colCliente.Name = "colCliente";
+            this.colCliente.Visible = true;
+            this.colCliente.VisibleIndex = 0;
+            // 
+            // repositoryItemLookUpEdit2
+            // 
+            this.repositoryItemLookUpEdit2.AutoHeight = false;
+            this.repositoryItemLookUpEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemLookUpEdit2.DataSource = this.userinfoBindingSource;
+            this.repositoryItemLookUpEdit2.DisplayMember = "Name";
+            this.repositoryItemLookUpEdit2.Name = "repositoryItemLookUpEdit2";
+            this.repositoryItemLookUpEdit2.ValueMember = "Userid";
             // 
             // userinfoTableAdapter
             // 
@@ -1341,6 +1378,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pagosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
@@ -1461,6 +1499,9 @@
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraGrid.Columns.GridColumn colPlanes;
         private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit repositoryItemLookUpEdit1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraGrid.Columns.GridColumn colCliente;
+        private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit repositoryItemLookUpEdit2;
 
     }
 }

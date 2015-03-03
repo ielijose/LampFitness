@@ -14,16 +14,16 @@
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
-          Opciones del manifiesto de Control de cuentas de usuario
-          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
-          nodo requestedExecutionLevel por alguno de los siguientes.
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         Si desea usar la virtualización de archivos y del Registro para la 
-         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
@@ -700,14 +700,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TcGimnasio.exe" size="343528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TcGimnasio.exe" size="344552">
       <assemblyIdentity name="TcGimnasio" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TcCbtyd6e53zfbDRB8ZrUJ3yT0du0w38eisAgSYkUbg=</dsig:DigestValue>
+        <dsig:DigestValue>L6MpaAsGAFAt+65XB+EsLqYtH5aOtV07RdI4pVxgwvc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -717,7 +717,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>YdQB3UsKHumiS+lqk7qdqgIr5U+e0imOmcQnzJKwiws=</dsig:DigestValue>
+      <dsig:DigestValue>30H7I8vq61HlgEb8PN94v2a2AJgjiwKPvMhPapKiLVc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TcGimnasio.exe.config" size="720">

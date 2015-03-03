@@ -37,6 +37,7 @@ namespace TcGimnasio
             this.pagosTableAdapter.FillPagos(this.dSDatos.Pagos);
             this.planesTableAdapter.Fill(this.dSDatos.Planes);
             this.mDPagoTableAdapter.Fill(this.dSDatos.MDPago);
+            this.userinfoTableAdapter.FillCliente(this.dSDatos.Userinfo);
             //BloquearClientes();
 
             int TotalClientes = 0;
@@ -83,6 +84,7 @@ namespace TcGimnasio
             int Dummy = 0;
             foreach (DataRow dr in dSDatos.Userinfo.Rows)
             {
+                if (dr["Duty"] == "100") continue;
                 try
                 {
                     if ((DateTime)dr["FecCorte"] <= DateTime.Today)
@@ -271,6 +273,29 @@ namespace TcGimnasio
         private void xtraTabPage5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Validate();
+            switch (typeAction)
+            {
+                case 0:
+                    typeAction = 0; //Clientes
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    //planesBindingSource.EndEdit();
+                    planesBindingSource.RemoveCurrent();
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+            }
         }
 
     }
