@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition1 = new DevExpress.XtraGrid.StyleFormatCondition();
             this.colUserFlag = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -42,25 +41,25 @@
             this.organizerGroup = new DevExpress.XtraNavBar.NavBarGroup();
             this.tasksItem = new DevExpress.XtraNavBar.NavBarItem();
             this.calendarItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.navbarImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
-            this.navbarImageCollection = new DevExpress.Utils.ImageCollection(this.components);
+            this.navbarImageCollectionLarge = new DevExpress.Utils.ImageCollection();
+            this.navbarImageCollection = new DevExpress.Utils.ImageCollection();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.ribbonControl = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.appMenu = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
-            this.popupControlContainer2 = new DevExpress.XtraBars.PopupControlContainer(this.components);
+            this.appMenu = new DevExpress.XtraBars.Ribbon.ApplicationMenu();
+            this.popupControlContainer2 = new DevExpress.XtraBars.PopupControlContainer();
             this.buttonEdit = new DevExpress.XtraEditors.ButtonEdit();
             this.iNew = new DevExpress.XtraBars.BarButtonItem();
             this.iOpen = new DevExpress.XtraBars.BarButtonItem();
             this.iSave = new DevExpress.XtraBars.BarButtonItem();
             this.iSaveAs = new DevExpress.XtraBars.BarButtonItem();
             this.iExit = new DevExpress.XtraBars.BarButtonItem();
-            this.popupControlContainer1 = new DevExpress.XtraBars.PopupControlContainer(this.components);
+            this.popupControlContainer1 = new DevExpress.XtraBars.PopupControlContainer();
             this.someLabelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.someLabelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.ribbonImageCollection = new DevExpress.Utils.ImageCollection(this.components);
+            this.ribbonImageCollection = new DevExpress.Utils.ImageCollection();
             this.iClose = new DevExpress.XtraBars.BarButtonItem();
             this.iFind = new DevExpress.XtraBars.BarButtonItem();
             this.iHelp = new DevExpress.XtraBars.BarButtonItem();
@@ -76,14 +75,12 @@
             this.iCenterTextAlign = new DevExpress.XtraBars.BarButtonItem();
             this.iRightTextAlign = new DevExpress.XtraBars.BarButtonItem();
             this.rgbiSkins = new DevExpress.XtraBars.RibbonGalleryBarItem();
-            this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
+            this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection();
             this.homeRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.fileRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.formatRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.skinsRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.exitRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.helpRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.helpRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
@@ -96,7 +93,7 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.userinfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.userinfoBindingSource = new System.Windows.Forms.BindingSource();
             this.dSDatos = new TcGimnasio.Datos.DSDatos();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colUserid = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -113,10 +110,10 @@
             this.colFecCorte = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPlanes = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
-            this.planesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.planesBindingSource = new System.Windows.Forms.BindingSource();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.mDPagoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mDPagoBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colIdMDPago = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDescripcion = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -129,7 +126,7 @@
             this.colPrecioMens = new DevExpress.XtraGrid.Columns.GridColumn();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl4 = new DevExpress.XtraGrid.GridControl();
-            this.pagosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pagosBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colId1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDescripcion1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -292,15 +289,17 @@
             // 
             // tasksItem
             // 
-            this.tasksItem.Caption = "Editar";
+            this.tasksItem.Caption = "Lista de clientes";
             this.tasksItem.Name = "tasksItem";
+            this.tasksItem.SmallImage = ((System.Drawing.Image)(resources.GetObject("tasksItem.SmallImage")));
             this.tasksItem.SmallImageIndex = 5;
             this.tasksItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.tasksItem_LinkClicked);
             // 
             // calendarItem
             // 
-            this.calendarItem.Caption = "Pagos";
+            this.calendarItem.Caption = "Historial de Pagos";
             this.calendarItem.Name = "calendarItem";
+            this.calendarItem.SmallImage = ((System.Drawing.Image)(resources.GetObject("calendarItem.SmallImage")));
             this.calendarItem.SmallImageIndex = 4;
             this.calendarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.calendarItem_LinkClicked);
             // 
@@ -404,8 +403,7 @@
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.homeRibbonPage,
-            this.helpRibbonPage});
+            this.homeRibbonPage});
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2010;
             this.ribbonControl.Size = new System.Drawing.Size(1100, 144);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
@@ -454,11 +452,13 @@
             // 
             // iNew
             // 
-            this.iNew.Caption = "Nuevo";
+            this.iNew.Caption = "Nuevo Pago";
             this.iNew.Description = "Nuevo Registro";
+            this.iNew.Glyph = ((System.Drawing.Image)(resources.GetObject("iNew.Glyph")));
             this.iNew.Hint = "Nuevo Registro";
             this.iNew.Id = 1;
             this.iNew.ImageIndex = 0;
+            this.iNew.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("iNew.LargeGlyph")));
             this.iNew.LargeImageIndex = 0;
             this.iNew.Name = "iNew";
             this.iNew.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.iNew_ItemClick);
@@ -747,20 +747,6 @@
             this.exitRibbonPageGroup.ItemLinks.Add(this.iExit);
             this.exitRibbonPageGroup.Name = "exitRibbonPageGroup";
             this.exitRibbonPageGroup.Text = "Salir del Sistema";
-            // 
-            // helpRibbonPage
-            // 
-            this.helpRibbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.helpRibbonPageGroup});
-            this.helpRibbonPage.Name = "helpRibbonPage";
-            this.helpRibbonPage.Text = "Help";
-            // 
-            // helpRibbonPageGroup
-            // 
-            this.helpRibbonPageGroup.ItemLinks.Add(this.iHelp);
-            this.helpRibbonPageGroup.ItemLinks.Add(this.iAbout);
-            this.helpRibbonPageGroup.Name = "helpRibbonPageGroup";
-            this.helpRibbonPageGroup.Text = "Help";
             // 
             // ribbonStatusBar
             // 
@@ -1390,8 +1376,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup formatRibbonPageGroup;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup skinsRibbonPageGroup;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup exitRibbonPageGroup;
-        private DevExpress.XtraBars.Ribbon.RibbonPage helpRibbonPage;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup helpRibbonPageGroup;
         private DevExpress.XtraBars.Ribbon.ApplicationMenu appMenu;
         private DevExpress.XtraBars.PopupControlContainer popupControlContainer1;
         private DevExpress.XtraEditors.LabelControl someLabelControl2;

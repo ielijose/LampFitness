@@ -131,6 +131,12 @@ namespace TcGimnasio
 
         private void iNew_ItemClick(object sender, ItemClickEventArgs e)
         {
+
+            FrmPagos fr = new FrmPagos();
+            fr.ShowDialog();
+            this.pagosTableAdapter.FillPagos(dSDatos.Pagos);
+
+
             switch (typeAction)
             {
                 case 0:
@@ -144,9 +150,7 @@ namespace TcGimnasio
                     break;
                 case 3:
                     typeAction = 3; //Pagos
-                    FrmPagos fr = new FrmPagos();
-                    fr.ShowDialog();
-                    this.pagosTableAdapter.FillPagos(dSDatos.Pagos);
+                    
                     break;
                 case 4:
                     typeAction = 4; //Consultas
