@@ -13,7 +13,6 @@ using DevExpress.Skins;
 using DevExpress.LookAndFeel;
 using DevExpress.UserSkins;
 
-
 namespace TcGimnasio
 {
     public partial class FrmMain : RibbonForm
@@ -25,7 +24,6 @@ namespace TcGimnasio
             InitializeComponent();
             InitSkinGallery();
             InitGrid();
-
         }
         void InitSkinGallery()
         {
@@ -84,6 +82,8 @@ namespace TcGimnasio
             int Dummy = 0;
             foreach (DataRow dr in dSDatos.Userinfo.Rows)
             {
+                MessageBox.Show(dr.ToString());
+
                 if (dr["Duty"] == "100") continue;
                 try
                 {
