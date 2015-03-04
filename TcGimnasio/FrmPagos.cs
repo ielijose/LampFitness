@@ -40,7 +40,7 @@ namespace TcGimnasio
             //dr["Id"] = textEdit1.Text;
             DataRow drCliente = gridLookUpEdit1View.GetFocusedDataRow();
             //dr["Codigo"] = Convert.ToInt32(lookUpEdit3.GetColumnValue("Userid"));
-            dr["Codigo"] = Convert.ToInt32(drCliente["Userid"]);
+            dr["Codigo"] =drCliente["Userid"].ToString();
             dr["Descripcion"] = textEdit2.Text;
             dr["Modo"] = lookUpEdit1.Text;
             dr["Plan"] = IdPlan;
@@ -51,8 +51,6 @@ namespace TcGimnasio
             this.pagosTableAdapter1.Update(dsDatos1.Pagos);
 
             DateTime NewDate = dateEdit1.DateTime.AddMonths(1);
-            Console.WriteLine(NewDate.ToString());
-
             //userinfoTableAdapter1.UpdateQueryFechaCorte(NewDate, lookUpEdit3.GetColumnValue("Userid").ToString());
             userinfoTableAdapter1.UpdateQueryFechaCorte(NewDate, drCliente["Userid"].ToString());
             
